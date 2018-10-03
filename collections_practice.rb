@@ -19,7 +19,8 @@ def reverse_array
 end
 
 def kesha_maker
-  array.each do 
+  array.each do |item|
+    item
 end
 
 def find_a
