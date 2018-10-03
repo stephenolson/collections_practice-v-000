@@ -20,7 +20,8 @@ end
 
 def kesha_maker
   array.each do |item|
-    item
+    item[2] = $
+  end
 end
 
 def find_a
