@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(array)
   array.sort do |1,2|
-    
+    1<=>2
 end
 
 def sort_array_char_count(array)
