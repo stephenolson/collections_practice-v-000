@@ -19,12 +19,7 @@ def reverse_array
 end
 
 def kesha_maker
-  i = 0
-  while i < array.length
-    yield array[i]
-    i += 1
-  end
-  array
+  array each
 end
 
 def find_a
